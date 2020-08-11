@@ -5,7 +5,9 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="Assets/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    
 
     <!-- This makes webpage more reposnsive with correct scaling -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,12 +17,87 @@
 <body>
     <header>
         <h1>Work Day Planner</h1>
- 
+        <p>Use this daily calendar to help you organize your busy work schedule!</p>
+        <p>Today's Date: <span id="todaysDate">  </span></p>
     </header>
-    <hr>
 
-    <main>
+    <main class="container">
+        <div class="row">
+            <article class="contentBox col-lg-12 col-md-12 col-sm-12">
+                <div class="row">
+                    <!-- 8AM content -->
+                    <section class="hourBlock eightAM col-lg-2 col-md-2 col-sm-2 col-2">8AM</section>
+                    <form class="taskField col-lg-9 col-md-9 col-sm-9 col-8">
+                        <!-- Use JS to insert "Input" when clicked on -->
+                    </form>
+                    <button class="saveBtn col-lg-1 col-md-1 col-sm-1 col-2"> <i class="far fa-save"></i> </button>
 
+                    <!-- 9AM content -->
+                    <section class="hourBlock nineAM col-lg-2 col-md-2 col-sm-2 col-2">9AM</section>
+                    <form class="taskField col-lg-9 col-md-9 col-sm-9 col-8">
+                        <!-- Use JS to insert "Input" when clicked on -->
+                    </form>
+                    <button class="saveBtn col-lg-1 col-md-1 col-sm-1 col-2"> <i class="far fa-save"></i> </button>
+
+                    <!-- 10AM content -->
+                    <section class="hourBlock tenAM col-lg-2 col-md-2 col-sm-2 col-2">10AM</section>
+                    <form class="taskField col-lg-9 col-md-9 col-sm-9 col-8">
+                        <!-- Use JS to insert "Input" when clicked on -->
+                    </form>
+                    <button class="saveBtn col-lg-1 col-md-1 col-sm-1 col-2"> <i class="far fa-save"></i> </button>
+
+                    <!-- 11AM content -->
+                    <section class="hourBlock elevenAM col-lg-2 col-md-2 col-sm-2 col-2">11AM</section>
+                    <form class="taskField col-lg-9 col-md-9 col-sm-9 col-8">
+                        <!-- Use JS to insert "Input" when clicked on -->
+                    </form>
+                    <button class="saveBtn col-lg-1 col-md-1 col-sm-1 col-2"> <i class="far fa-save"></i> </button>
+
+                    <!-- 12PM content -->
+                    <section class="hourBlock 12PMAM col-lg-2 col-md-2 col-sm-2 col-2">12PM</section>
+                    <form class="taskField col-lg-9 col-md-9 col-sm-9 col-8">
+                        <!-- Use JS to insert "Input" when clicked on -->
+                    </form>
+                    <button class="saveBtn col-lg-1 col-md-1 col-sm-1 col-2"> <i class="far fa-save"></i> </button>
+
+                    <!-- 1PM content -->
+                    <section class="hourBlock onePM col-lg-2 col-md-2 col-sm-2 col-2">1PM</section>
+                    <form class="taskField col-lg-9 col-md-9 col-sm-9 col-8">
+                        <!-- Use JS to insert "Input" when clicked on -->
+                    </form>
+                    <button class="saveBtn col-lg-1 col-md-1 col-sm-1 col-2"> <i class="far fa-save"></i> </button>
+
+                    <!-- 2PM content -->
+                    <section class="hourBlock twoPM col-lg-2 col-md-2 col-sm-2 col-2">2PM</section>
+                    <form class="taskField col-lg-9 col-md-9 col-sm-9 col-8">
+                        <!-- Use JS to insert "Input" when clicked on -->
+                    </form>
+                    <button class="saveBtn col-lg-1 col-md-1 col-sm-1 col-2"> <i class="far fa-save"></i> </button>
+
+                    <!-- 3PM content -->
+                    <section class="hourBlock threePM col-lg-2 col-md-2 col-sm-2 col-2">3PM</section>
+                    <form class="taskField col-lg-9 col-md-9 col-sm-9 col-8">
+                        <!-- Use JS to insert "Input" when clicked on -->
+                    </form>
+                    <button class="saveBtn col-lg-1 col-md-1 col-sm-1 col-2"> <i class="far fa-save"></i> </button>
+                    
+                    <!-- 4PM content -->
+                    <section class="hourBlock fourPM col-lg-2 col-md-2 col-sm-2 col-2">4PM</section>
+                    <form class="taskField col-lg-9 col-md-9 col-sm-9 col-8">
+                        <!-- Use JS to insert "Input" when clicked on -->
+                    </form>
+                    <button class="saveBtn col-lg-1 col-md-1 col-sm-1 col-2"> <i class="far fa-save"></i> </button>
+
+                    <!-- 5PM content -->
+                    <section class="hourBlock fivePM col-lg-2 col-md-2 col-sm-2 col-2">5PM</section>
+                    <form class="taskField col-lg-9 col-md-9 col-sm-9 col-8">
+                        <!-- Use JS to insert "Input" when clicked on -->
+                    </form>
+                    <button class="saveBtn col-lg-1 col-md-1 col-sm-1 col-2"> <i class="far fa-save"></i> </button>                    
+
+                </div>
+            </article>
+        </div>
     </main>
 
 
@@ -28,7 +105,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    <!-- Moment.js library for dates & time -->
+    <script src="./lib/moment/moment.min.js"></script>
 
 
 </body>

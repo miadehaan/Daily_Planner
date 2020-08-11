@@ -1,0 +1,48 @@
+body {
+    font-family: 'Indie Flower', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: #EDD2E0;
+    border-bottom: 1px solid grey;
+}
+
+p {
+    font-size: 20px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+.contentBox {
+    margin: 20px;
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+    /* border: 1px solid red; */
+}
+
+.hourBlock {
+    text-align: center;
+    background-color: white;
+    border-top: 1px solid grey;
+    border-right: 1px solid grey;
+    border-bottom: 1px solid grey;
+    height: auto;
+
+}
+
+.taskField {
+    height: auto;
+    border: 1px solid grey;
+    background-color: lavender;
+}
+
+.saveBtn {
+    height: auto;
+}
