@@ -66,6 +66,9 @@ textarea {
 .saveBtn {
     padding: 30px 0;
     text-align: center;
+
+    /* Try to make button look the same on desktop & mobile */
+    -webkit-appearance: none; 
 }
 
 .saveBtn i:hover {
