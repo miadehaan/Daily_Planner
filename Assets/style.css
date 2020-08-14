@@ -4,6 +4,7 @@ body {
     padding: 0;
     line-height: 1;
     font-size: 20px;
+    color: black;
 }
 
 /* Header ------------------------------------- */
@@ -47,8 +48,6 @@ textarea {
     border: none;
     border: 1px solid grey;
     resize: none;
-    color: #000000;
-    border-left: 1px solid black;
     padding: 10px;
   }
 
