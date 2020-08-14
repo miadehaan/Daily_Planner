@@ -50,6 +50,20 @@ textarea {
     resize: none;
     padding: 10px;
   }
+  
+  .saveBtn {
+    padding: 30px 0;
+    text-align: center;
+
+    /* Make button look the same on desktop & mobile */
+    -webkit-appearance: none; 
+    background-color: rgb(221, 220, 220) !important;
+}
+
+.saveBtn i:hover {
+    font-size: 20px;
+    transition: all .3s ease-in-out;
+}
 
 .past {
     background-color: rgb(252, 204, 204);
@@ -63,19 +77,7 @@ textarea {
     background-color: #c8e9c8;
 }
 
-.saveBtn {
-    padding: 30px 0;
-    text-align: center;
 
-    /* Make button look the same on desktop & mobile */
-    -webkit-appearance: none; 
-    background-color: rgb(221, 220, 220) !important;
-}
-
-.saveBtn i:hover {
-    font-size: 20px;
-    transition: all .3s ease-in-out;
-}
 
 /* Footer----------------------------------------------------- */
 footer {
