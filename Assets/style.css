@@ -69,6 +69,7 @@ textarea {
 
     /* Try to make button look the same on desktop & mobile */
     -webkit-appearance: none; 
+    background-color: rgb(221, 220, 220);
 }
 
 .saveBtn i:hover {
