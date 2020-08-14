@@ -24,24 +24,27 @@ $(document).ready(function() {
             // console.log("Block Hour: " + blockHour);
 
             if (blockHour < currentHour) {
-                $(taskField).addClass("past");
-                $(taskField).removeClass("present");
+                $(this).addClass("past");
+                $(this).removeClass("present");
+                $(this).removeClass("future");
 
-                console.log("past");
+                // console.log("past");
             }
             else if (currentHour === blockHour) {
-                $(taskField).addClass("present");
+                $(this).removeClass("future");
+                $(this).removeClass("past");
+                $(this).addClass("present");
 
-                console.log("present");
+                // console.log("present");
             }
             else {
-                $(taskField).addClass("future");
-                $(taskField).removeClass("present");
-                $(taskField).removeClass("past");
+                $(this).addClass("future");
+                $(this).removeClass("present");
+                $(this).removeClass("past");
 
-                console.log("future");
+                // console.log("future");
             }
-        })
+        });
 
     }
     //Set on interval
@@ -59,7 +62,7 @@ $(document).ready(function() {
 
     });
 
-    //The grabs the value from the localStorgage corresponding to the hour
+    //The grabs the value from the localStorage corresponding to the hour
     $("#8").siblings(".taskField").val(localStorage.getItem("8"));
     $("#9").siblings(".taskField").val(localStorage.getItem("9"));
     $("#10").siblings(".taskField").val(localStorage.getItem("10"));

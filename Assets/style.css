@@ -28,7 +28,7 @@ p {
 
  .row {
     white-space: pre-wrap;
-    height: 80px;
+    height: 90px;
     border-top: 1px solid white;
 }
 
@@ -45,16 +45,12 @@ p {
 textarea {
     background: transparent;
     border: none;
+    border: 1px solid grey;
     resize: none;
     color: #000000;
     border-left: 1px solid black;
     padding: 10px;
   }
-
-.taskField {
-    border: 1px solid grey;
-}
-
 
 .past {
     background-color: rgb(252, 204, 204);
@@ -69,8 +65,6 @@ textarea {
 }
 
 .saveBtn {
-    height: auto;
-
     padding: 30px 0;
     text-align: center;
 }
