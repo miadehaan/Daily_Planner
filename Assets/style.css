@@ -50,14 +50,14 @@ textarea {
     resize: none;
     padding: 10px;
   }
-  
+
   .saveBtn {
     padding: 30px 0;
     text-align: center;
 
     /* Make button look the same on desktop & mobile */
     -webkit-appearance: none; 
-    background-color: rgb(221, 220, 220) !important;
+    background-color: white !important;
 }
 
 .saveBtn i:hover {
