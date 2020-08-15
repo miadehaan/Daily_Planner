@@ -13,7 +13,7 @@ To add a new task or item, click on the text area for the hour you would like an
 
 Code:
 
-This code utilizes javaScript & jQuery. The moment.js library was also used to pull in the current time and date. 
+This code utilizes javaScript & jQuery to make this page more dynamic and user-friendly. The moment.js library was also used to pull in the current time and date. Bootstrap was used to help style this page. 
 
 # Links
 
